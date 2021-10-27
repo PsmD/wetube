@@ -8,7 +8,7 @@
     "url": "git+https://github.com/PsmD/wetube-reloaded.git"
   },
   "scripts": {
-    "win": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "",
   "license": "MIT",
@@ -21,6 +21,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
-    "@babel/preset-env": "^7.15.8"
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "nodemon": "^2.0.14"
   }
 }
