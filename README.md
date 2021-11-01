@@ -1,4 +1,4 @@
-# Wetube Reloaded
+# Wetube
 
 / -> Home
 /join -> Join
